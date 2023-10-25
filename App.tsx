@@ -74,21 +74,24 @@ function App(): JSX.Element {
         <Header />
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            backgroundColor: Colors.soft
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+          <Section title="Nama">
+            Shally Larasati Rahman
           </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
+          <Section title="Pendidikan">
+            Departemen Teknologi Kebumian, Sekolah Vokasi. Universitas Gadjah Mada, Yogyakarta
           </Section>
-          <Section title="Debug">
-            <DebugInstructions />
+          <Section title="Nomor Induk Mahasiswa">
+            21/474545/SV/18970
           </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
+          <Section title="Kelas">
+            A
           </Section>
+          <Section title="Tentang saya">
+            Nerd
+          </Section>
+          <Section title="Media Sosial"></Section>
           <LearnMoreLinks />
         </View>
       </ScrollView>
