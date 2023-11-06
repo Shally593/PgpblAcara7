@@ -4,6 +4,7 @@ import React from 'react';
 import {Text, View, Image, StyleSheet, ScrollView} from 'react-native';
 import Fontawesome5 from 'react-native-vector-icons/FontAwesome5';
 import Portofolio from '../App';
+import Getjsonfile from '../Getjsonfile';
 import {WebView} from 'react-native-webview';
 
 const Tab = createBottomTabNavigator();
@@ -14,10 +15,12 @@ function HomeScreen() {
     return (
         <ScrollView>
             <Text style = {styles.title}> My Maps </Text>
+
             <View style = {styles.listitems}>
                 <Image source={require('../Peta/geomorf.png')} style={styles.image} />
                 <Text style = {styles.caption}> Peta Geomorfologi Kepulauan Seribu </Text>
             </View>
+
             <View style = {styles.listitems}>
                 <Image source={require('../Peta/bentik.png')} style={styles.image} />
                 <Text style = {styles.caption}> Peta Habitat Bentik Pulau Serasan, Natuna</Text>
@@ -50,10 +53,19 @@ function ProfileScreen() {
     );
 }
 
+function MahasiswaScreen() {
+    return (
+        <View>
+            <Getjsonfile/>
+        </View>
+    );
+}
+
 function MyTabs() {
   return (
     <NavigationContainer>
     <Tab.Navigator screenOptions={{ headerShown: false }} >
+        
       <Tab.Screen name="Home" component={HomeScreen} options={{
         tabBarLabel: 'Home',
         tabBarIcon: ({ color, size }) => (
@@ -72,6 +84,13 @@ function MyTabs() {
         tabBarLabel: 'Profile',
         tabBarIcon: ({ color, size }) => (
               <Fontawesome5 name="user-circle" color={color} size={size}/>
+        ),
+        }}
+    />
+      <Tab.Screen name="Mahasiswa" component={MahasiswaScreen} options={{
+        tabBarLabel: 'Mahasiswa',
+        tabBarIcon: ({ color, size }) => (
+              <Fontawesome5 name="users" color={color} size={size}/>
         ),
         }}
     />
