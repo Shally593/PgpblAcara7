@@ -1,0 +1,39 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nama": "Shally",
+      "nim": "21/474545/SV/18970",
+      "kelas": "PGPBL-A",
+      "icon": "fish",
+      "color": "#D2DE32"
+    },
+    {
+      "nama": "mei",
+      "nim": "21/47653/SV/90876",
+      "kelas": "A",
+      "jeniskelamin": "P",
+      "color": "860A35",
+      "icon": "star",
+      "id": 10
+    },
+    {
+      "nama": "Susanti",
+      "nim": "21/56789/SV/09875",
+      "kelas": "A",
+      "jeniskelamin": "PR",
+      "color": "23453",
+      "icon": "users",
+      "id": 11
+    },
+    {
+      "nama": "Rose",
+      "nim": "22/789072/GE/87654",
+      "kelas": "PGPBL - B",
+      "jeniskelamin": "Perempuan",
+      "color": "0766AD",
+      "icon": "fish",
+      "id": 13
+    }
+  ]
+}
