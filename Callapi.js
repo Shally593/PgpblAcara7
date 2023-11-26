@@ -6,7 +6,7 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const Callapi = () => {
   const jsonUrl =
-    'https://script.google.com/macros/s/AKfycbw_VHoyyVMZHBGuVs8nCyy9R46q6AYOvrsuyixUW2KKQppaUIUnb4TWMQdPMCUYkSHA/exec';
+    'https://script.google.com/macros/s/AKfycbzeDMPto8t24hT0SXlejD8yc-KNZ1cC7wyDqLn0hZGUMDuMmFe8eNks6bKljxk0K94YuA/exec';
   const [isLoading, setLoading] = useState(true);
   const [dataUser, setDataUser] = useState({});
   const [refresh, setRefresh] = useState(false);
@@ -55,10 +55,9 @@ const Callapi = () => {
                 </View>
                 <View>
                   <Text style={styles.cardtitle}>{item.nama}</Text>
-                  <Text>NIM : {item.nim}</Text>
-                  <Text>Kelas : {item.kelas}</Text>
-                  <Text>Jenis Kelamin : {item.jeniskelamin}</Text>
-                  {/* <Text>{item.latitude}, {item.longitude}</Text> */}
+                  <Text>Deskripsi : {item.deskripsi}</Text>
+                  <Text>Timestamps : {item.timestamp}</Text>
+                  <Text>{item.latitude}, {item.longitude}</Text>
                 </View>
               </View>
             )}

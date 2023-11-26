@@ -4,9 +4,11 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import {Text, View, FlatList, StyleSheet} from 'react-native';
 
 const Getjsonfile = () => {
+const list = 'https://script.google.com/macros/s/AKfycbyxBgsR8Gqm4QhMm8H_ZYLjwRrn5zC1R6hoxf4mkxGzCSfJ6ws0RqObBdIo81WWVrUPaQ/exec';
+
   return (
     <FlatList
-        data={mahasiswa}
+        data={list}
         renderItem={({ item }) => (
                 <View style={styles.card}>
                     <View style={styles.avatar}>
