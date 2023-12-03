@@ -1,79 +1,63 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Green Pulse App
 
-# Getting Started
+## Deskripsi Aplikasi
+Peta lokasi objek form input data dan web map untuk konten React Native dalam rangka praktikum Pemrograman Geospasial Perangkat Bergerak Lanjut (PGPBL), Sekolah Vokasi UGM.
+Green Pulse App merupakan aplikasi tematik berbasis spasial yang dirancang untuk memberikan informasi sebaran lokasi objek pengolahan sampak di Surabaya dan sekitarnya. Aplikasi didesain untuk memudahkan para pengguna dengan cepat menemukan pusat - pusat daur ulang dan tempat pembuangan sampah.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Fitur Unggulan dari Green Pulse App antara lain : 
 
-## Step 1: Start the Metro Server
+1.	Kolaboratif 
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Selain mendapatkan informasi mengenai sebaran lokasi pengelolaan sampah di Surabaya dan sekitarnya, pengguna juga dapat secara kolaboratif ikut serta dalam menambahkan data dengan fitur yang disajikan oleh Green Pulse App.   Fitur kolaboratif ini memungkinkan pengguna untuk memberikan pembaruan langsung terkait status tempat pengolahan sampah, jenis sampah yang diterima, atau informasi lain yang dapat bermanfaat bagi pengguna lain.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+3.	Pemetaan Interaktif 
 
-```bash
-# using npm
-npm start
+Aplikasi dilengkapi dengan fitur spasial yang memudahkan pengguna dalam menggunakannya. Pengguna dapat menemukan lokasi - lokasi pengelolaan sampah dalam Tab - List Data. Pengguna dapat menggunakan fitur Add Data untuk menambahkan data mengenai lokasi bersangkutan. Selanjutnya pengguna dapat menggunakan fitur navigasi dalam list data untuk    mengetahui lebih lengkapi rute menuju lokasi tersebut melalui Google Maps. Bagi pengguna yang memiliki preferensi basemap dari tampilan map yang digunakan, terdapat fitur 'Change Base Map' yang dapat diatur saat melihat sebaran lokasi bersangkutan. 
 
-# OR using Yarn
-yarn start
-```
+## Komponen Pembangun Aplikasi
+1)	React Native 
 
-## Step 2: Start your Application
+React Native merupakan framework yang digunakan dalam membangun cross mobile app, android dan IOS. React Native dibangun dengan library javascript bernama React untuk interface program, dengan bahasa pemorgraman Javascript.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+2)	HTML 
 
-### For Android
+Sebagai bahasa pemrograman standar untuk merancang halaman web. Digunakan bersama dengan CSS atau Cascading Style Sheets dan Javascript untuk membangun UI dari aplikasi. 
 
-```bash
-# using npm
-npm run android
+3)	Leaflet JS
 
-# OR using Yarn
-yarn android
-```
+Leaflet JS yang merupakan Javascript Library open – source yang digunakan untuk merancang peta interaktif pada aplikasi tematik. Misalnya fitur spasial berupa Geolocation. 
 
-### For iOS
+4)	Google Spreadsheet 
 
-```bash
-# using npm
-npm run ios
+Google Spreadsheet digunakan sebagai database dalam menyimpan dan menerima data secara real – time dan diakses secara online. 
 
-# OR using Yarn
-yarn ios
-```
+5)	App Script 
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Bagian dari Google Spreadsheet, sebagai extension yang digunakan dalam melakukan otomatisasi data dari Google Spreadsheet. 
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+6)	Font Awesome 5
 
-## Step 3: Modifying your App
+Font Awesome 5 yang merupakan ikon dan toolkit font vektor library yang digunakan dalam memberikan tampilan aplikasi lebih representatif. 
 
-Now that you have successfully run the app, let's modify it.
+7)	Github Repository
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+GitHub Repository digunakan dalam menyimpan sumber kode agar dapat dilacak dan dikelola secara efisien. 
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Sumber Data
+1)	Data Batas Administrasi Surabaya dari RBI 1 : 25.000
+   
+Data diakses melalui Inageoportal : https://tanahair.indonesia.go.id/
 
-## Congratulations! :tada:
+3)	Data tabular lokasi pengelolaan sampah di Kota Surabaya dan sekitarnya berupa file *.xlsx, yang disimpan dalam spreadsheet. 
 
-You've successfully run and modified your React Native App. :partying_face:
+## Aplikasi 
+![Screenshot 1](https://github.com/Shally593/pgpbl-responsi/assets/142763000/de197023-b1b7-40eb-af51-955cfccd3984)
+![Screenshot 2](https://github.com/Shally593/pgpbl-responsi/assets/142763000/5fdd26b3-564b-4f7c-98c6-4bcf61fbb70e)
+![Screenshot 31](https://github.com/Shally593/pgpbl-responsi/assets/142763000/32e384f0-1ce8-44d5-8bf3-9f969513bc02)
+![Screenshot 32](https://github.com/Shally593/pgpbl-responsi/assets/142763000/bec5295f-c70a-473a-baf1-0daab4cd999c)
+![Screenshot 4](https://github.com/Shally593/pgpbl-responsi/assets/142763000/572ab273-c5b4-46ed-9c26-a711f1d7208f)
+![Screenshot 5](https://github.com/Shally593/pgpbl-responsi/assets/142763000/2b50c33c-6741-4e49-a674-e6e884b6b0bf)
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
