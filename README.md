@@ -1,7 +1,6 @@
 # Green Pulse App
 
 ## Deskripsi Aplikasi
-Peta lokasi objek form input data dan web map untuk konten React Native dalam rangka praktikum Pemrograman Geospasial Perangkat Bergerak Lanjut (PGPBL), Sekolah Vokasi UGM.
 Green Pulse App merupakan aplikasi tematik berbasis spasial yang dirancang untuk memberikan informasi sebaran lokasi objek pengolahan sampak di Surabaya dan sekitarnya. Aplikasi didesain untuk memudahkan para pengguna dengan cepat menemukan pusat - pusat daur ulang dan tempat pembuangan sampah.
 
 Fitur Unggulan dari Green Pulse App antara lain : 
