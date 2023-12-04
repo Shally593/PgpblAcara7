@@ -56,15 +56,15 @@ function HomeScreen() {
         <ScrollView>
             <View>
                 <Text style={styles.title}>GREEN PULSE APP</Text>
-                <Text style = {{textAlign :'center'}}> Temukan, Kolaborasi, dan Dukung Pengelolaan Sampah yang Berkelanjutan di Surabaya</Text>
+                <Text style = {{textAlign :'center'}}> Temukan, Kolaborasi dan Dukung Pengelolaan Sampah yang Berkelanjutan di Surabaya</Text>
                 <View style={styles.container}>
                     <Text style={styles.text}>
-                        Green Pulse App merupakan aplikasi tematik berbasis spasial yang dirancang untuk memberikan informasi sebaran lokasi objek pengolahan sampak di Surabaya dan sekitarnya. 
-                        Aplikasi didesain untuk memudahkan para pengguna dengan cepat menemukan pusat - pusat daur ulang dan tempat pembuangan sampah.</Text>
+                        Green Pulse App merupakan aplikasi tematik berbasis spasial yang dirancang untuk memberikan informasi sebaran lokasi objek pengolahan sampah di Surabaya dan sekitarnya. 
+                        Aplikasi didesain agar memudahkan pengguna dengan cepat menemukan pusat - pusat daur ulang dan tempat pembuangan sampah.</Text>
                         
                     <Text style={styles.text}>
 
-                        Fitur Unggulan dari Green Pulse App antara lain : </Text>
+                        Berikut merupakan fitur Unggulan dari Green Pulse App : </Text>
                         
                     <Text style={styles.text}>
                         1. Kolaboratif 
