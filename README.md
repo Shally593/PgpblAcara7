@@ -10,7 +10,7 @@ Fitur Unggulan dari Green Pulse App antara lain :
 
 Selain mendapatkan informasi mengenai sebaran lokasi pengelolaan sampah di Surabaya dan sekitarnya, pengguna juga dapat secara kolaboratif ikut serta dalam menambahkan data dengan fitur yang disajikan oleh Green Pulse App.   Fitur kolaboratif ini memungkinkan pengguna untuk memberikan pembaruan langsung terkait status tempat pengolahan sampah, jenis sampah yang diterima, atau informasi lain yang dapat bermanfaat bagi pengguna lain.
 
-3.	Pemetaan Interaktif 
+2.	Pemetaan Interaktif 
 
 Aplikasi dilengkapi dengan fitur spasial yang memudahkan pengguna dalam menggunakannya. Pengguna dapat menemukan lokasi - lokasi pengelolaan sampah dalam Tab - List Data. Pengguna dapat menggunakan fitur Add Data untuk menambahkan data mengenai lokasi bersangkutan. Selanjutnya pengguna dapat menggunakan fitur navigasi dalam list data untuk    mengetahui lebih lengkapi rute menuju lokasi tersebut melalui Google Maps. Bagi pengguna yang memiliki preferensi basemap dari tampilan map yang digunakan, terdapat fitur 'Change Base Map' yang dapat diatur saat melihat sebaran lokasi bersangkutan. 
 
